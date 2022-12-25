@@ -68,3 +68,16 @@ body{
     display: flex;
     flex-direction: column-reverse;
 }
+
+.projetos{
+    width: 1000px;
+    height: 80%;
+}
+
+.p-0 {
+    padding: none; 
+}
+
+.m-0 {
+    margin: none;
+}

@@ -13,8 +13,8 @@
 <body>
 
     <div class="container col-12 m-0 p-0">
-      <div class="row">
-          <div class="perfil col-4 ms-3">
+      <div class="row ">
+          <div class="perfil col-3 ms-3 d-block"> <!--Conferir dblock-->
             <img class="ms-4" src="https://github.com/devGiovanni95.png" alt="Foto Perfil" class="jsx-2423573658 sknui-img">
             <p class="paragrafo">Giovanni Almeida dos Santos</p>
             <p class="paragrafo">Cursando </p>
@@ -26,12 +26,42 @@
             <p class="subParagrafo">Conclusão Dezembro de 2024</p>
             <p class="subParagrafo">Cursando 2º Semestre</p>
           </div>
-          <div class="col text-center">
-            <h1 class="titulo">Portifólio</h1>    
+          <div class="col-8 text-center">
+            <h1 class="titulo">Portifólio</h1>  
+            
+            <div id="carouselExampleDark" class="carousel carousel-dark slide projetos" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="img/netflix.png" class="d-block w-100" alt="..." id="netflix">
+                  <div class="carousel-caption d-none d-md-block">
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/tecblog.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">                
+                  </div>
+                </div>                
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+
           </div>
       </div>
 
-      <div class="row position-absolute bottom-0">
+      <div class="row position-absolute bottom-0 Conferir dblock">
         <p class="subParagrafo ms-5">Conheça Minhas Redes</p>
         <div class="d-flex ms-1">
           <a class="redes ms-3" href="https://www.linkedin.com/in/giovanni-santos-1326341a9"><p class="subParagrafoIcone"> <img src="img/linkedin.png"> Linkedin</p></a>
